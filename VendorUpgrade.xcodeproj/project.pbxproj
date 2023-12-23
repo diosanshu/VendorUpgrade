@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C672D1362B370B560017B5E3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1332B370B560017B5E3 /* SettingsView.swift */; };
+		C672D1372B370B560017B5E3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1342B370B560017B5E3 /* Color.swift */; };
+		C672D1382B370B560017B5E3 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1352B370B560017B5E3 /* SettingsLabelView.swift */; };
+		C672D13C2B370B750017B5E3 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D13A2B370B750017B5E3 /* StartButton.swift */; };
+		C672D13D2B370B750017B5E3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D13B2B370B750017B5E3 /* OnboardingView.swift */; };
+		C672D1402B370B8D0017B5E3 /* OnboardCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D13F2B370B8D0017B5E3 /* OnboardCategory.swift */; };
+		C672D1422B370BA80017B5E3 /* OnBoardCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1412B370BA80017B5E3 /* OnBoardCategoryViewModel.swift */; };
+		C672D1472B370C920017B5E3 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1462B370C920017B5E3 /* CategoryCardView.swift */; };
+		C672D1492B370E740017B5E3 /* DashBoradView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1482B370E740017B5E3 /* DashBoradView.swift */; };
 		C6A68BAE2B36771800B99A8B /* VendorUpgradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A68BAD2B36771800B99A8B /* VendorUpgradeApp.swift */; };
 		C6A68BB02B36771800B99A8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A68BAF2B36771800B99A8B /* ContentView.swift */; };
 		C6A68BB22B36771A00B99A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A68BB12B36771A00B99A8B /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C672D1332B370B560017B5E3 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C672D1342B370B560017B5E3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C672D1352B370B560017B5E3 /* SettingsLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		C672D13A2B370B750017B5E3 /* StartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		C672D13B2B370B750017B5E3 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C672D13F2B370B8D0017B5E3 /* OnboardCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardCategory.swift; sourceTree = "<group>"; };
+		C672D1412B370BA80017B5E3 /* OnBoardCategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardCategoryViewModel.swift; sourceTree = "<group>"; };
+		C672D1462B370C920017B5E3 /* CategoryCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		C672D1482B370E740017B5E3 /* DashBoradView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoradView.swift; sourceTree = "<group>"; };
 		C6A68BAA2B36771800B99A8B /* VendorUpgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendorUpgrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A68BAD2B36771800B99A8B /* VendorUpgradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorUpgradeApp.swift; sourceTree = "<group>"; };
 		C6A68BAF2B36771800B99A8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +51,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C672D12F2B370B1A0017B5E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C672D1432B370BAE0017B5E3 /* OnBoardViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C672D1302B370B1E0017B5E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C672D13E2B370B7B0017B5E3 /* OnBoardModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C672D1312B370B220017B5E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C672D14A2B370E830017B5E3 /* DashBoard */,
+				C672D1392B370B670017B5E3 /* OnBoard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C672D1322B370B280017B5E3 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				C672D1342B370B560017B5E3 /* Color.swift */,
+				C672D1352B370B560017B5E3 /* SettingsLabelView.swift */,
+				C672D1332B370B560017B5E3 /* SettingsView.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		C672D1392B370B670017B5E3 /* OnBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C672D13B2B370B750017B5E3 /* OnboardingView.swift */,
+				C672D13A2B370B750017B5E3 /* StartButton.swift */,
+			);
+			name = OnBoard;
+			sourceTree = "<group>";
+		};
+		C672D13E2B370B7B0017B5E3 /* OnBoardModel */ = {
+			isa = PBXGroup;
+			children = (
+				C672D13F2B370B8D0017B5E3 /* OnboardCategory.swift */,
+			);
+			path = OnBoardModel;
+			sourceTree = "<group>";
+		};
+		C672D1432B370BAE0017B5E3 /* OnBoardViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C672D1412B370BA80017B5E3 /* OnBoardCategoryViewModel.swift */,
+			);
+			path = OnBoardViewModel;
+			sourceTree = "<group>";
+		};
+		C672D1442B370C7D0017B5E3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C672D1452B370C870017B5E3 /* Onboard */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C672D1452B370C870017B5E3 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				C672D1462B370C920017B5E3 /* CategoryCardView.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		C672D14A2B370E830017B5E3 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C672D1482B370E740017B5E3 /* DashBoradView.swift */,
+			);
+			name = DashBoard;
+			sourceTree = "<group>";
+		};
 		C6A68BA12B36771800B99A8B = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +156,11 @@
 			children = (
 				C6A68BAD2B36771800B99A8B /* VendorUpgradeApp.swift */,
 				C6A68BAF2B36771800B99A8B /* ContentView.swift */,
+				C672D1442B370C7D0017B5E3 /* Cell */,
+				C672D1322B370B280017B5E3 /* Global */,
+				C672D1312B370B220017B5E3 /* View */,
+				C672D1302B370B1E0017B5E3 /* Model */,
+				C672D12F2B370B1A0017B5E3 /* ViewModel */,
 				C6A68BB12B36771A00B99A8B /* Assets.xcassets */,
 				C6A68BB32B36771A00B99A8B /* VendorUpgrade.entitlements */,
 				C6A68BB42B36771A00B99A8B /* Preview Content */,
@@ -139,8 +246,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C672D1362B370B560017B5E3 /* SettingsView.swift in Sources */,
+				C672D1422B370BA80017B5E3 /* OnBoardCategoryViewModel.swift in Sources */,
+				C672D1472B370C920017B5E3 /* CategoryCardView.swift in Sources */,
+				C672D1372B370B560017B5E3 /* Color.swift in Sources */,
+				C672D1382B370B560017B5E3 /* SettingsLabelView.swift in Sources */,
+				C672D13C2B370B750017B5E3 /* StartButton.swift in Sources */,
+				C672D1492B370E740017B5E3 /* DashBoradView.swift in Sources */,
 				C6A68BB02B36771800B99A8B /* ContentView.swift in Sources */,
 				C6A68BAE2B36771800B99A8B /* VendorUpgradeApp.swift in Sources */,
+				C672D13D2B370B750017B5E3 /* OnboardingView.swift in Sources */,
+				C672D1402B370B8D0017B5E3 /* OnboardCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
