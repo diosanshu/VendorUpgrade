@@ -9,15 +9,6 @@ import SwiftUI
 struct DashBoard: View {
     @State var isShowingSettings: Bool = false
     var body: some View {
-        ZStack {
-            Button(action: {
-                isShowingSettings = true
-            }) {
-                Image(systemName: "slider.horizontal.3")
-            } // Button
-            .sheet(isPresented: $isShowingSettings) {
-                SettingsView()
-            }
-        }
+        HeaderBar()
     }
 }
