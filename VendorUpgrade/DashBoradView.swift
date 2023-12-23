@@ -9,6 +9,6 @@ import SwiftUI
 struct DashBoard: View {
     @State var isShowingSettings: Bool = false
     var body: some View {
-        HeaderBar()
+            HeaderBar()
     }
 }

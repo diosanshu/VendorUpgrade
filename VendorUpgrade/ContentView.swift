@@ -9,10 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
             DashBoard()
-        }
-        .padding(.all, 50)
     }
 }
 
