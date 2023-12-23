@@ -20,7 +20,7 @@ struct HeaderBar: View {
     ]
     var body: some View {
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1)), Color(#colorLiteral(red: 0.9843164086, green: 0.9843164086, blue: 0.9843164086, alpha: 1))]), startPoint: .top, endPoint: .bottom)
+            LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)), Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))]), startPoint: .top, endPoint: .bottom)
                 .frame(width: UIScreen.main.bounds.width, height: (UIScreen.main.bounds.height)*0.25, alignment: .center)
                 .edgesIgnoringSafeArea(.all)
             
@@ -59,12 +59,12 @@ struct HeaderBar: View {
                 HStack {
                     Image(systemName: "magnifyingglass")
                         .foregroundColor(.gray)
-                        .font(.title)
-                    TextField("Search by name ...", text: $search)
                         .font(.title3)
+                    TextField("Search Venddors ...", text: $search)
+                        .font(.subheadline)
                 }
                 .frame(width:  ( UIScreen.main.bounds.width)*0.85, height: 40, alignment: .leading)
-                .padding(.leading, 20)
+                .padding(.leading, 30)
                 .background(Color.white)
                 .cornerRadius(10)
                 
