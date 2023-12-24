@@ -17,6 +17,10 @@
 		C672D1472B370C920017B5E3 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1462B370C920017B5E3 /* CategoryCardView.swift */; };
 		C672D1492B370E740017B5E3 /* DashBoradView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1482B370E740017B5E3 /* DashBoradView.swift */; };
 		C672D14C2B371BA10017B5E3 /* HeaderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D14B2B371BA10017B5E3 /* HeaderBar.swift */; };
+		C672D1592B3753B90017B5E3 /* TrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1582B3753B90017B5E3 /* TrendingView.swift */; };
+		C672D15E2B3754DA0017B5E3 /* TrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D15D2B3754DA0017B5E3 /* TrendingModel.swift */; };
+		C672D1602B3754ED0017B5E3 /* TredingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D15F2B3754ED0017B5E3 /* TredingViewModel.swift */; };
+		C672D1632B375F010017B5E3 /* TrendviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C672D1622B375F010017B5E3 /* TrendviewCell.swift */; };
 		C6A68BAE2B36771800B99A8B /* VendorUpgradeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A68BAD2B36771800B99A8B /* VendorUpgradeApp.swift */; };
 		C6A68BB02B36771800B99A8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A68BAF2B36771800B99A8B /* ContentView.swift */; };
 		C6A68BB22B36771A00B99A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A68BB12B36771A00B99A8B /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 		C672D1462B370C920017B5E3 /* CategoryCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
 		C672D1482B370E740017B5E3 /* DashBoradView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoradView.swift; sourceTree = "<group>"; };
 		C672D14B2B371BA10017B5E3 /* HeaderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBar.swift; sourceTree = "<group>"; };
+		C672D1582B3753B90017B5E3 /* TrendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingView.swift; sourceTree = "<group>"; };
+		C672D15D2B3754DA0017B5E3 /* TrendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingModel.swift; sourceTree = "<group>"; };
+		C672D15F2B3754ED0017B5E3 /* TredingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TredingViewModel.swift; sourceTree = "<group>"; };
+		C672D1622B375F010017B5E3 /* TrendviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendviewCell.swift; sourceTree = "<group>"; };
 		C6A68BAA2B36771800B99A8B /* VendorUpgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendorUpgrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A68BAD2B36771800B99A8B /* VendorUpgradeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorUpgradeApp.swift; sourceTree = "<group>"; };
 		C6A68BAF2B36771800B99A8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +64,7 @@
 		C672D12F2B370B1A0017B5E3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C672D15C2B3754BE0017B5E3 /* TrendViewModel */,
 				C672D1432B370BAE0017B5E3 /* OnBoardViewModel */,
 			);
 			path = ViewModel;
@@ -64,6 +73,7 @@
 		C672D1302B370B1E0017B5E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C672D15A2B3753EA0017B5E3 /* TrendModel */,
 				C672D13E2B370B7B0017B5E3 /* OnBoardModel */,
 			);
 			path = Model;
@@ -72,6 +82,7 @@
 		C672D1312B370B220017B5E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C672D1572B3753980017B5E3 /* Trending */,
 				C672D14A2B370E830017B5E3 /* DashBoard */,
 				C672D1392B370B670017B5E3 /* OnBoard */,
 			);
@@ -116,6 +127,7 @@
 		C672D1442B370C7D0017B5E3 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				C672D1612B375ED90017B5E3 /* Trend */,
 				C672D1452B370C870017B5E3 /* Onboard */,
 			);
 			path = Cell;
@@ -136,6 +148,38 @@
 				C672D14B2B371BA10017B5E3 /* HeaderBar.swift */,
 			);
 			name = DashBoard;
+			sourceTree = "<group>";
+		};
+		C672D1572B3753980017B5E3 /* Trending */ = {
+			isa = PBXGroup;
+			children = (
+				C672D1582B3753B90017B5E3 /* TrendingView.swift */,
+			);
+			name = Trending;
+			sourceTree = "<group>";
+		};
+		C672D15A2B3753EA0017B5E3 /* TrendModel */ = {
+			isa = PBXGroup;
+			children = (
+				C672D15D2B3754DA0017B5E3 /* TrendingModel.swift */,
+			);
+			path = TrendModel;
+			sourceTree = "<group>";
+		};
+		C672D15C2B3754BE0017B5E3 /* TrendViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C672D15F2B3754ED0017B5E3 /* TredingViewModel.swift */,
+			);
+			path = TrendViewModel;
+			sourceTree = "<group>";
+		};
+		C672D1612B375ED90017B5E3 /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				C672D1622B375F010017B5E3 /* TrendviewCell.swift */,
+			);
+			path = Trend;
 			sourceTree = "<group>";
 		};
 		C6A68BA12B36771800B99A8B = {
@@ -249,17 +293,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C672D1592B3753B90017B5E3 /* TrendingView.swift in Sources */,
 				C672D14C2B371BA10017B5E3 /* HeaderBar.swift in Sources */,
 				C672D1362B370B560017B5E3 /* SettingsView.swift in Sources */,
 				C672D1422B370BA80017B5E3 /* OnBoardCategoryViewModel.swift in Sources */,
 				C672D1472B370C920017B5E3 /* CategoryCardView.swift in Sources */,
 				C672D1372B370B560017B5E3 /* Color.swift in Sources */,
+				C672D1632B375F010017B5E3 /* TrendviewCell.swift in Sources */,
+				C672D1602B3754ED0017B5E3 /* TredingViewModel.swift in Sources */,
 				C672D1382B370B560017B5E3 /* SettingsLabelView.swift in Sources */,
 				C672D13C2B370B750017B5E3 /* StartButton.swift in Sources */,
 				C672D1492B370E740017B5E3 /* DashBoradView.swift in Sources */,
 				C6A68BB02B36771800B99A8B /* ContentView.swift in Sources */,
 				C6A68BAE2B36771800B99A8B /* VendorUpgradeApp.swift in Sources */,
 				C672D13D2B370B750017B5E3 /* OnboardingView.swift in Sources */,
+				C672D15E2B3754DA0017B5E3 /* TrendingModel.swift in Sources */,
 				C672D1402B370B8D0017B5E3 /* OnboardCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
